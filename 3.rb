@@ -42,6 +42,7 @@ image = Image.new([
   [0, 1, 1, 1,],
   [0, 1, 1, 0,]
 ])
+
 image.blur(1)
 image.output_image
 
@@ -59,6 +60,7 @@ image = Image.new([
   [0, 1, 1, 1, 0],
   [0, 1, 1, 0, 0]
 ])
+
 puts
 image.blur(2)
 image.output_image
@@ -77,6 +79,7 @@ image = Image.new([
   [0, 1, 1, 1, 0, 0],
   [0, 1, 1, 0, 0, 0]
 ])
+
 puts
 image.blur(3)
 image.output_image
