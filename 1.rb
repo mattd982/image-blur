@@ -1,11 +1,3 @@
-#values = Array[["0000"]], [["0100"]], [["0001"]], [["0000"]]
-#values.each do |x|
-#
-#    x.each do |cell|
-#        puts cell
-#    end
-#end
-
 class Image
     def initialize (image)
         @image = image
