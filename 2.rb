@@ -42,5 +42,6 @@ image = Image.new([
   [0, 1, 1, 1],
   [0, 1, 1, 0]
 ])
+
 image.blur!(1)
 image.output_image
